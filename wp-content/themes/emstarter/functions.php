@@ -129,7 +129,7 @@ function emstarter_scripts() {
 
 	/* enqueue Google Fonts: Source Sans Pro and PT Serif
  */
-wp_enqueue_style('emstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro:400,400i,700,900" rel="stylesheet');
+wp_enqueue_style('emstarter-fonts', 'https://fonts.googleapis.com/css?family=PT+Serif|Source+Sans+Pro:400,400i,700,900|family=Roboto:400" rel="stylesheet');
 
 	wp_enqueue_style( 'emstarter-style', get_stylesheet_uri() );
 

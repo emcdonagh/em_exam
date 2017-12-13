@@ -265,7 +265,7 @@ select,
 optgroup,
 textarea {
 	color: #000;
-	font-family: "PT Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+	font-family: "Roboto", sans-serif;
 	font-size: 18px;
 	font-size: 1.125rem;
 	line-height: 1.5;
@@ -289,27 +289,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 3em;
-}
-
-h2 {
-	font-size: 2.6em;
-}
-
-h3 {
 	font-size: 2.2em;
 }
 
-h4 {
+h2 {
 	font-size: 2em;
 }
 
-h5 {
+h3 {
 	font-size: 1.8em;
 }
 
-h6 {
+h4 {
 	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 1.2em;
 }
 
 p {
@@ -441,19 +441,21 @@ figure {
 	/* Extra wide images within figure tags don't overflow the content area. */
 }
 
-table {
+/*table {
 	border-collapse: collapse;
 	margin: 0 0 1.5em;
 	width: 100%;
-	background-color: #eee;
+	background-color: $color__background-pre;
 }
 
 thread th {
+
 	border-bottom: 2px solid #bbb;
 	padding-bottom: .5em;
 }
 
 td, th {
+
 	vertical-align: top;
 	border: 1px solid white;
 	padding: .5em;
@@ -463,19 +465,19 @@ th {
 	padding: .4em;
 	text-align: left;
 	background-color: white;
-	color: #000;
-	border: 2px solid #eee;
+	color: $color__text-screen;
+	border: 2px solid $color__background-pre;
 }
 
 tr {
 	padding: .4em;
-	color: #000;
+	color: $color__text-screen;
 }
 
 td {
 	padding: .4em;
 }
-
+*/
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -1146,13 +1148,13 @@ button.dropdown-toggle {
 
 .entry-title {
 	margin: .15em 0 .25em;
-	font-size: 2.5em;
+	font-size: 1.6em;
 	color: #626c85;
 }
 
 @media screen and (min-width: 900px) {
 	.entry-title {
-		font-size: 3em;
+		font-size: 2.2em;
 	}
 }
 

@@ -22,9 +22,9 @@
 				) );
 			?>
 </nav>
-		<div class="site-info">
+		<!--<div class="site-info">
 			
-		</div><!-- .site-info -->
+		</div> .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
