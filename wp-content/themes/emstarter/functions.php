@@ -82,12 +82,12 @@ if ( ! function_exists( 'emstarter_setup' ) ) :
 		 *
 		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
-		add_theme_support( 'custom-logo', array(
-			'height'      => 90,
-			'width'       => 90,
-			'flex-width'  => true,
+		//add_theme_support( 'custom-logo', array(
+		//	'height'      => 90,
+		//	'width'       => 90,
+		//	'flex-width'  => true,
 			//'flex-height' => true,
-		) );
+	//	) );
 	}
 endif;
 add_action( 'after_setup_theme', 'emstarter_setup' );
